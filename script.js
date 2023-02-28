@@ -9,3 +9,8 @@ sayHelloBtn.classList.add("btn", "btn-red")//соз класс
 //изменить стили элемента
 sayHelloBtn.style.color = "tomato";
 sayHelloBtn.style. fontSize = "20px";
+
+//не изменяемые свойства
+console.log(sayHelloBtn.clientTop);
+console.log(sayHelloBtn.getBoundingClientRect());
+
