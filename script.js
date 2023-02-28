@@ -14,3 +14,11 @@ sayHelloBtn.style. fontSize = "20px";
 console.log(sayHelloBtn.clientTop);
 console.log(sayHelloBtn.getBoundingClientRect());
 
+
+//создание элемента
+let exampleBtn = document.createElement("button");
+// document.body.append (exampleBtn);
+document.body.prepend(exampleBtn);
+
+
+
